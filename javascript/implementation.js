@@ -40,9 +40,6 @@ function keyUpHandler( keyCode = 0, upArrowPressed = false, rightArrowPressed = 
         shiftKeyPressed = false;
     }
 
-
-    }
-
     return {
         upArrowPressed,
         rightArrowPressed,
