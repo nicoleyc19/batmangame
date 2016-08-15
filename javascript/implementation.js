@@ -4,8 +4,10 @@
     @returns {number}
     @desc return the input param minus 10 (or some other value that you like)
 */
-function moveBgLeft(x) {
-    return x - 10;
+function moveBgLeft( x ) {
+    const xValue = x - 10;
+
+    return xValue;
 
 }
 
@@ -36,9 +38,6 @@ function keyUpHandler( keyCode = 0, upArrowPressed = false, rightArrowPressed = 
     }
     if (keyCode === 16){
         shiftKeyPressed = false;
-    }
-
-
     }
 
     return {
@@ -94,8 +93,10 @@ function keyDownHandler( keyCode = 0, upArrowPressed = false, rightArrowPressed 
     @returns {number}
     @desc subtracts a value from y to simulate jump
 */
-function shouldJumpNow(y) {
-    return y - 80;
+function shouldJumpNow( y ) {
+    const yValue = y - 80;
+
+    return yValue;
 }
 
 
